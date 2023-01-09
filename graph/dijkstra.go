@@ -25,7 +25,7 @@ func Dijkstra(g WeightedGraph, s int) []int {
 		for _, w := range g.Adjacent(v.Value) {
 			if !visited[w] {
 				wegiht := g.Weight(v.Value, w)
-				if dist[v.Value]+wegiht < dist[w] {
+				if dist[v.Value] + wegiht < dist[w] {
 					dist[w] = dist[v.Value] + wegiht
 					d := heapq.NewData(dist[w], w)
 					q.Push(d)
