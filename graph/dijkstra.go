@@ -13,7 +13,7 @@ func Dijkstra(g WeightedGraph, s int) []int {
 	visited := make([]bool, g.Order())
 	dist := make([]int, g.Order())
 	for i := range dist {
-		dist[i] = math.MaxInt32
+		dist[i] = math.MaxInt64
 	}
 	dist[s] = 0
 	q := heapq.New[int]()
