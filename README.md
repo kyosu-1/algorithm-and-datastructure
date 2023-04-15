@@ -5,7 +5,7 @@ implements algorithm and datastructure
   * heapq
   * queue
   * stack
-* graph
+* graph 
   * bfs
   * dfs
   * dijkstra
