@@ -30,7 +30,7 @@ func main() {
 
 	var Q int
 	scanner.Scan()
-	Q, _ = strconv.Atoi(scanner.Text()) // この行を追加
+	Q, _ = strconv.Atoi(scanner.Text())
 
 	for i := 0; i < Q; i++ {
 		var L, R int
