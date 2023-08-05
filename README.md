@@ -7,10 +7,6 @@
 * books
   * アルゴリズムとデータ構造に関する書籍での実装・問題演習
 * datastructure
-  * heapq
-  * queue
-  * stack
+  * データ構造
 * graph 
-  * bfs
-  * dfs
-  * dijkstra
+  * グラフアルゴリズム
