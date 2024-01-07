@@ -42,7 +42,6 @@ class UnionFind:
     # xの属する集合の要素数を返す
     def size(self, x):
         return -self.parents[self.find(x)]
-    
 
 if __name__ == '__main__':
     N, K, L = map(int, input().split())
